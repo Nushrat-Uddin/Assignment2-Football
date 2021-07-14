@@ -40,7 +40,7 @@ body{
 .header-img img{
     height: 438px;
     width: 556px;
-    margin: 140px 225px 114px 190px;
+    margin: 140px 240px 114px 190px;
     transition: 2s;
     transition-timing-function: ease;
     transition-delay: .5s;
