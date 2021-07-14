@@ -30,11 +30,23 @@ body{
     text-decoration: none;
     margin: 38px 0px 169px 156px;
     padding: 10px 24px 10px 24px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-delay: .5s;
+}
+.link-button:hover{
+    background-color: mediumorchid;
 }
 .header-img img{
     height: 438px;
     width: 556px;
     margin: 140px 225px 114px 190px;
+    transition: 2s;
+    transition-timing-function: ease;
+    transition-delay: .5s;
+}
+.header-img img:hover{
+    transform: scale(.5) rotate(-380deg);
 }
 /*--------------------Style For Second Section-------------*/
 .players-one{
@@ -128,7 +140,7 @@ body{
     width: 466px;
     height: 309px;
     margin-left: 192px;
-    margin-top: 200px;
+    margin-top: 180px;
     margin-right: 78px;
     
 }
@@ -147,14 +159,17 @@ body{
     background-color: #E02C6D;
     text-decoration: none;
     padding: 10px 24px 10px 24px;
-    margin-top: 30px;
+    margin-top: 40px;
+}
+#link:hover{
+    background-color: mediumorchid;
 }
     
 
 .middle-img img{
     width: 567px;
     height: 427px;
-    margin-top: 165px;
+    margin-top: 140px;
 }
 /*---------------------Footer Section---------*/
 .logo img{
@@ -167,12 +182,30 @@ body{
 .social-media{
     height: 32px;
     width: 170px;
-    margin-left: 631.94px;
+    margin-left: 650px;
     margin-right: 638.06;
     text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.media{
+    padding: 2px;
+    color: darkgray;
+    
+    
+}
+.social-media a:hover{
+    background-color: dimgrey;
 }
 #last{
     text-align: center;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.747);
 }
+/*--------------------------Media Query----------------*/
+/*-----------------------------------------------------*/
 
 
